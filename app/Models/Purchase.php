@@ -16,18 +16,11 @@ class Purchase extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'purchase_number',
-        'supplier_name',
+        'invoice_number',
         'user_id',
+        'supplier_name',
         'total_amount',
-        'discount',
-        'final_amount',
-        'paid_amount',
-        'payment_status',
-        'purchase_date',
-        'due_date',
         'status',
-        'notes',
     ];
 
     /**
